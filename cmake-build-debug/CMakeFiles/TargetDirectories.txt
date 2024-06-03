@@ -1,0 +1,3 @@
+C:/Users/jake/OneDrive/Desktop/School/cpp_Snake/cmake-build-debug/CMakeFiles/cpp_Snake.dir
+C:/Users/jake/OneDrive/Desktop/School/cpp_Snake/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/jake/OneDrive/Desktop/School/cpp_Snake/cmake-build-debug/CMakeFiles/rebuild_cache.dir

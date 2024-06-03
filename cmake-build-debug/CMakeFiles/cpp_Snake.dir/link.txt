@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2024.1.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\cpp_Snake.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\cpp_Snake.dir/objects.a @CMakeFiles\cpp_Snake.dir\objects1.rsp
+C:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\cpp_Snake.dir/objects.a -Wl,--no-whole-archive -o cpp_Snake.exe -Wl,--out-implib,libcpp_Snake.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cpp_Snake.dir\linkLibs.rsp
