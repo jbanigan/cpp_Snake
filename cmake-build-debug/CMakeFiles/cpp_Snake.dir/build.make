@@ -128,12 +128,44 @@ CMakeFiles/cpp_Snake.dir/src/input.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cpp_Snake.dir/src/input.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jake\OneDrive\Desktop\School\cpp_Snake\src\input.cpp -o CMakeFiles\cpp_Snake.dir\src\input.cpp.s
 
+CMakeFiles/cpp_Snake.dir/src/snakesection.cpp.obj: CMakeFiles/cpp_Snake.dir/flags.make
+CMakeFiles/cpp_Snake.dir/src/snakesection.cpp.obj: CMakeFiles/cpp_Snake.dir/includes_CXX.rsp
+CMakeFiles/cpp_Snake.dir/src/snakesection.cpp.obj: C:/Users/jake/OneDrive/Desktop/School/cpp_Snake/src/snakesection.cpp
+CMakeFiles/cpp_Snake.dir/src/snakesection.cpp.obj: CMakeFiles/cpp_Snake.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\jake\OneDrive\Desktop\School\cpp_Snake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cpp_Snake.dir/src/snakesection.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp_Snake.dir/src/snakesection.cpp.obj -MF CMakeFiles\cpp_Snake.dir\src\snakesection.cpp.obj.d -o CMakeFiles\cpp_Snake.dir\src\snakesection.cpp.obj -c C:\Users\jake\OneDrive\Desktop\School\cpp_Snake\src\snakesection.cpp
+
+CMakeFiles/cpp_Snake.dir/src/snakesection.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cpp_Snake.dir/src/snakesection.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jake\OneDrive\Desktop\School\cpp_Snake\src\snakesection.cpp > CMakeFiles\cpp_Snake.dir\src\snakesection.cpp.i
+
+CMakeFiles/cpp_Snake.dir/src/snakesection.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cpp_Snake.dir/src/snakesection.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jake\OneDrive\Desktop\School\cpp_Snake\src\snakesection.cpp -o CMakeFiles\cpp_Snake.dir\src\snakesection.cpp.s
+
+CMakeFiles/cpp_Snake.dir/src/update.cpp.obj: CMakeFiles/cpp_Snake.dir/flags.make
+CMakeFiles/cpp_Snake.dir/src/update.cpp.obj: CMakeFiles/cpp_Snake.dir/includes_CXX.rsp
+CMakeFiles/cpp_Snake.dir/src/update.cpp.obj: C:/Users/jake/OneDrive/Desktop/School/cpp_Snake/src/update.cpp
+CMakeFiles/cpp_Snake.dir/src/update.cpp.obj: CMakeFiles/cpp_Snake.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\jake\OneDrive\Desktop\School\cpp_Snake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cpp_Snake.dir/src/update.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp_Snake.dir/src/update.cpp.obj -MF CMakeFiles\cpp_Snake.dir\src\update.cpp.obj.d -o CMakeFiles\cpp_Snake.dir\src\update.cpp.obj -c C:\Users\jake\OneDrive\Desktop\School\cpp_Snake\src\update.cpp
+
+CMakeFiles/cpp_Snake.dir/src/update.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cpp_Snake.dir/src/update.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jake\OneDrive\Desktop\School\cpp_Snake\src\update.cpp > CMakeFiles\cpp_Snake.dir\src\update.cpp.i
+
+CMakeFiles/cpp_Snake.dir/src/update.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cpp_Snake.dir/src/update.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jake\OneDrive\Desktop\School\cpp_Snake\src\update.cpp -o CMakeFiles\cpp_Snake.dir\src\update.cpp.s
+
 # Object files for target cpp_Snake
 cpp_Snake_OBJECTS = \
 "CMakeFiles/cpp_Snake.dir/src/main.cpp.obj" \
 "CMakeFiles/cpp_Snake.dir/src/engine.cpp.obj" \
 "CMakeFiles/cpp_Snake.dir/src/draw.cpp.obj" \
-"CMakeFiles/cpp_Snake.dir/src/input.cpp.obj"
+"CMakeFiles/cpp_Snake.dir/src/input.cpp.obj" \
+"CMakeFiles/cpp_Snake.dir/src/snakesection.cpp.obj" \
+"CMakeFiles/cpp_Snake.dir/src/update.cpp.obj"
 
 # External object files for target cpp_Snake
 cpp_Snake_EXTERNAL_OBJECTS =
@@ -142,6 +174,8 @@ cpp_Snake.exe: CMakeFiles/cpp_Snake.dir/src/main.cpp.obj
 cpp_Snake.exe: CMakeFiles/cpp_Snake.dir/src/engine.cpp.obj
 cpp_Snake.exe: CMakeFiles/cpp_Snake.dir/src/draw.cpp.obj
 cpp_Snake.exe: CMakeFiles/cpp_Snake.dir/src/input.cpp.obj
+cpp_Snake.exe: CMakeFiles/cpp_Snake.dir/src/snakesection.cpp.obj
+cpp_Snake.exe: CMakeFiles/cpp_Snake.dir/src/update.cpp.obj
 cpp_Snake.exe: CMakeFiles/cpp_Snake.dir/build.make
 cpp_Snake.exe: C:/SFML/lib/libsfml-system-d.a
 cpp_Snake.exe: C:/SFML/lib/libsfml-window-d.a
@@ -149,7 +183,7 @@ cpp_Snake.exe: C:/SFML/lib/libsfml-graphics-d.a
 cpp_Snake.exe: CMakeFiles/cpp_Snake.dir/linkLibs.rsp
 cpp_Snake.exe: CMakeFiles/cpp_Snake.dir/objects1.rsp
 cpp_Snake.exe: CMakeFiles/cpp_Snake.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\jake\OneDrive\Desktop\School\cpp_Snake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable cpp_Snake.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\jake\OneDrive\Desktop\School\cpp_Snake\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable cpp_Snake.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\cpp_Snake.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

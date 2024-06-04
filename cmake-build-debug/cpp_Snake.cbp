@@ -89,6 +89,9 @@
 		<Unit filename="C:/Users/jake/OneDrive/Desktop/School/cpp_Snake/headers/engine.h">
 			<Option target="cpp_Snake"/>
 		</Unit>
+		<Unit filename="C:/Users/jake/OneDrive/Desktop/School/cpp_Snake/headers/snakesection.h">
+			<Option target="cpp_Snake"/>
+		</Unit>
 		<Unit filename="C:/Users/jake/OneDrive/Desktop/School/cpp_Snake/src/draw.cpp">
 			<Option target="cpp_Snake"/>
 		</Unit>
@@ -99,6 +102,12 @@
 			<Option target="cpp_Snake"/>
 		</Unit>
 		<Unit filename="C:/Users/jake/OneDrive/Desktop/School/cpp_Snake/src/main.cpp">
+			<Option target="cpp_Snake"/>
+		</Unit>
+		<Unit filename="C:/Users/jake/OneDrive/Desktop/School/cpp_Snake/src/snakesection.cpp">
+			<Option target="cpp_Snake"/>
+		</Unit>
+		<Unit filename="C:/Users/jake/OneDrive/Desktop/School/cpp_Snake/src/update.cpp">
 			<Option target="cpp_Snake"/>
 		</Unit>
 		<Unit filename="C:/Users/jake/OneDrive/Desktop/School/cpp_Snake/CMakeLists.txt">

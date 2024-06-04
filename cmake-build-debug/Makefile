@@ -224,6 +224,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_Snake.dir\build.make CMakeFiles/cpp_Snake.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/snakesection.obj: src/snakesection.cpp.obj
+.PHONY : src/snakesection.obj
+
+# target to build an object file
+src/snakesection.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_Snake.dir\build.make CMakeFiles/cpp_Snake.dir/src/snakesection.cpp.obj
+.PHONY : src/snakesection.cpp.obj
+
+src/snakesection.i: src/snakesection.cpp.i
+.PHONY : src/snakesection.i
+
+# target to preprocess a source file
+src/snakesection.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_Snake.dir\build.make CMakeFiles/cpp_Snake.dir/src/snakesection.cpp.i
+.PHONY : src/snakesection.cpp.i
+
+src/snakesection.s: src/snakesection.cpp.s
+.PHONY : src/snakesection.s
+
+# target to generate assembly for a file
+src/snakesection.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_Snake.dir\build.make CMakeFiles/cpp_Snake.dir/src/snakesection.cpp.s
+.PHONY : src/snakesection.cpp.s
+
+src/update.obj: src/update.cpp.obj
+.PHONY : src/update.obj
+
+# target to build an object file
+src/update.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_Snake.dir\build.make CMakeFiles/cpp_Snake.dir/src/update.cpp.obj
+.PHONY : src/update.cpp.obj
+
+src/update.i: src/update.cpp.i
+.PHONY : src/update.i
+
+# target to preprocess a source file
+src/update.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_Snake.dir\build.make CMakeFiles/cpp_Snake.dir/src/update.cpp.i
+.PHONY : src/update.cpp.i
+
+src/update.s: src/update.cpp.s
+.PHONY : src/update.s
+
+# target to generate assembly for a file
+src/update.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_Snake.dir\build.make CMakeFiles/cpp_Snake.dir/src/update.cpp.s
+.PHONY : src/update.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -245,6 +293,12 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/snakesection.obj
+	@echo ... src/snakesection.i
+	@echo ... src/snakesection.s
+	@echo ... src/update.obj
+	@echo ... src/update.i
+	@echo ... src/update.s
 .PHONY : help
 
 

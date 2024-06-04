@@ -8,10 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/jake/OneDrive/Desktop/School/cpp_Snake/src/engine.cpp" "CMakeFiles/cpp_Snake.dir/src/Engine.cpp.obj" "gcc" "CMakeFiles/cpp_Snake.dir/src/Engine.cpp.obj.d"
   "C:/Users/jake/OneDrive/Desktop/School/cpp_Snake/src/draw.cpp" "CMakeFiles/cpp_Snake.dir/src/draw.cpp.obj" "gcc" "CMakeFiles/cpp_Snake.dir/src/draw.cpp.obj.d"
+  "C:/Users/jake/OneDrive/Desktop/School/cpp_Snake/src/engine.cpp" "CMakeFiles/cpp_Snake.dir/src/engine.cpp.obj" "gcc" "CMakeFiles/cpp_Snake.dir/src/engine.cpp.obj.d"
   "C:/Users/jake/OneDrive/Desktop/School/cpp_Snake/src/input.cpp" "CMakeFiles/cpp_Snake.dir/src/input.cpp.obj" "gcc" "CMakeFiles/cpp_Snake.dir/src/input.cpp.obj.d"
   "C:/Users/jake/OneDrive/Desktop/School/cpp_Snake/src/main.cpp" "CMakeFiles/cpp_Snake.dir/src/main.cpp.obj" "gcc" "CMakeFiles/cpp_Snake.dir/src/main.cpp.obj.d"
+  "C:/Users/jake/OneDrive/Desktop/School/cpp_Snake/src/snakesection.cpp" "CMakeFiles/cpp_Snake.dir/src/snakesection.cpp.obj" "gcc" "CMakeFiles/cpp_Snake.dir/src/snakesection.cpp.obj.d"
+  "C:/Users/jake/OneDrive/Desktop/School/cpp_Snake/src/update.cpp" "CMakeFiles/cpp_Snake.dir/src/update.cpp.obj" "gcc" "CMakeFiles/cpp_Snake.dir/src/update.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

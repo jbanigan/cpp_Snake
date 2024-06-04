@@ -1,6 +1,6 @@
-CMakeFiles/cpp_Snake.dir/src/engine.cpp.obj: \
- C:\Users\jake\OneDrive\Desktop\School\cpp_Snake\src\engine.cpp \
- C:/Users/jake/OneDrive/Desktop/School/cpp_Snake/headers/engine.h \
+CMakeFiles/cpp_Snake.dir/src/snakesection.cpp.obj: \
+ C:\Users\jake\OneDrive\Desktop\School\cpp_Snake\src\snakesection.cpp \
+ C:/Users/jake/OneDrive/Desktop/School/cpp_Snake/headers/snakesection.h \
  C:/SFML/include/SFML/Graphics.hpp C:/SFML/include/SFML/Window.hpp \
  C:/SFML/include/SFML/System.hpp C:/SFML/include/SFML/Config.hpp \
  C:/SFML/include/SFML/System/Clock.hpp \
@@ -243,5 +243,4 @@ CMakeFiles/cpp_Snake.dir/src/engine.cpp.obj: \
  C:/SFML/include/SFML/Graphics/Glsl.inl \
  C:/SFML/include/SFML/Graphics/Sprite.hpp \
  C:/SFML/include/SFML/Graphics/Text.hpp \
- C:/SFML/include/SFML/Graphics/VertexBuffer.hpp \
- C:/Users/jake/OneDrive/Desktop/School/cpp_Snake/headers/snakesection.h
+ C:/SFML/include/SFML/Graphics/VertexBuffer.hpp

@@ -243,4 +243,5 @@ CMakeFiles/cpp_Snake.dir/src/input.cpp.obj: \
  C:/SFML/include/SFML/Graphics/Glsl.inl \
  C:/SFML/include/SFML/Graphics/Sprite.hpp \
  C:/SFML/include/SFML/Graphics/Text.hpp \
- C:/SFML/include/SFML/Graphics/VertexBuffer.hpp
+ C:/SFML/include/SFML/Graphics/VertexBuffer.hpp \
+ C:/Users/jake/OneDrive/Desktop/School/cpp_Snake/headers/snakesection.h

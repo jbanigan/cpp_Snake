@@ -7,7 +7,10 @@ add_executable(cpp_Snake src/main.cpp
         src/Engine.cpp
         headers/Engine.h
         src/draw.cpp
-        src/input.cpp)
+        src/input.cpp
+        src/SnakeSection.cpp
+        headers/SnakeSection.h
+        src/update.cpp)
 
 include_directories(headers C:/SFML/include)
 
