@@ -1,5 +1,5 @@
-CMakeFiles/cpp_Snake.dir/src/main.cpp.obj: \
- C:\Users\jake\OneDrive\Desktop\School\cpp_Snake\src\main.cpp \
+CMakeFiles/cpp_Snake.dir/src/update.cpp.obj: \
+ C:\Users\jake\OneDrive\Desktop\School\cpp_Snake\src\update.cpp \
  C:/Users/jake/OneDrive/Desktop/School/cpp_Snake/headers/engine.h \
  C:/SFML/include/SFML/Graphics.hpp C:/SFML/include/SFML/Window.hpp \
  C:/SFML/include/SFML/System.hpp C:/SFML/include/SFML/Config.hpp \

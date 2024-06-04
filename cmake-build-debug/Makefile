@@ -128,6 +128,30 @@ cpp_Snake/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_Snake.dir\build.make CMakeFiles/cpp_Snake.dir/build
 .PHONY : cpp_Snake/fast
 
+src/apple.obj: src/apple.cpp.obj
+.PHONY : src/apple.obj
+
+# target to build an object file
+src/apple.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_Snake.dir\build.make CMakeFiles/cpp_Snake.dir/src/apple.cpp.obj
+.PHONY : src/apple.cpp.obj
+
+src/apple.i: src/apple.cpp.i
+.PHONY : src/apple.i
+
+# target to preprocess a source file
+src/apple.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_Snake.dir\build.make CMakeFiles/cpp_Snake.dir/src/apple.cpp.i
+.PHONY : src/apple.cpp.i
+
+src/apple.s: src/apple.cpp.s
+.PHONY : src/apple.s
+
+# target to generate assembly for a file
+src/apple.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_Snake.dir\build.make CMakeFiles/cpp_Snake.dir/src/apple.cpp.s
+.PHONY : src/apple.cpp.s
+
 src/draw.obj: src/draw.cpp.obj
 .PHONY : src/draw.obj
 
@@ -281,6 +305,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... cpp_Snake
+	@echo ... src/apple.obj
+	@echo ... src/apple.i
+	@echo ... src/apple.s
 	@echo ... src/draw.obj
 	@echo ... src/draw.i
 	@echo ... src/draw.s

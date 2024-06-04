@@ -14,6 +14,9 @@ void Engine::input() {
             if (event.key.code == Keyboard::Escape) {
                 window.close();
             }
+            if (event.key.code == Keyboard::Tab) {
+                togglePause();
+            }
 
             //Directions
             if(event.key.code == Keyboard::Up) {

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/cpp_Snake.dir/src/apple.cpp.obj"
+  "CMakeFiles/cpp_Snake.dir/src/apple.cpp.obj.d"
   "CMakeFiles/cpp_Snake.dir/src/draw.cpp.obj"
   "CMakeFiles/cpp_Snake.dir/src/draw.cpp.obj.d"
   "CMakeFiles/cpp_Snake.dir/src/engine.cpp.obj"

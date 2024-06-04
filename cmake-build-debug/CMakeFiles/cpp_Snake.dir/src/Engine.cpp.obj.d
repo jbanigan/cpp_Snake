@@ -244,4 +244,8 @@ CMakeFiles/cpp_Snake.dir/src/engine.cpp.obj: \
  C:/SFML/include/SFML/Graphics/Sprite.hpp \
  C:/SFML/include/SFML/Graphics/Text.hpp \
  C:/SFML/include/SFML/Graphics/VertexBuffer.hpp \
- C:/Users/jake/OneDrive/Desktop/School/cpp_Snake/headers/snakesection.h
+ C:/Users/jake/OneDrive/Desktop/School/cpp_Snake/headers/snakesection.h \
+ C:/mingw64/include/c++/13.1.0/deque \
+ C:/mingw64/include/c++/13.1.0/bits/stl_deque.h \
+ C:/mingw64/include/c++/13.1.0/bits/deque.tcc \
+ C:/Users/jake/OneDrive/Desktop/School/cpp_Snake/headers/apple.h

@@ -86,10 +86,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/jake/OneDrive/Desktop/School/cpp_Snake/headers/apple.h">
+			<Option target="cpp_Snake"/>
+		</Unit>
 		<Unit filename="C:/Users/jake/OneDrive/Desktop/School/cpp_Snake/headers/engine.h">
 			<Option target="cpp_Snake"/>
 		</Unit>
 		<Unit filename="C:/Users/jake/OneDrive/Desktop/School/cpp_Snake/headers/snakesection.h">
+			<Option target="cpp_Snake"/>
+		</Unit>
+		<Unit filename="C:/Users/jake/OneDrive/Desktop/School/cpp_Snake/src/apple.cpp">
 			<Option target="cpp_Snake"/>
 		</Unit>
 		<Unit filename="C:/Users/jake/OneDrive/Desktop/School/cpp_Snake/src/draw.cpp">

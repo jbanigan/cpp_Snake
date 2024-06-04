@@ -5,6 +5,7 @@
 #include "snakesection.h"
 #include <vector>
 #include <deque>
+#include "apple.h"
 
 using namespace sf;
 using namespace std;
@@ -20,9 +21,16 @@ private:
     int snakeDirection;
     deque<int> directionQueue; // queue for the direction pressed
     int speed;
+    int sectionsToAdd; // how many section to add after eating apples
+    Apple apple;
+    int currentGameState;
+    int lastGameState;
     Time timeSinceLastMove;
+
+
 public:
     enum Direction {UP, RIGHT, DOWN, LEFT};
+    enum GameState {RUNNING, PAUSED, GAMEOVER};
     Engine();
     void draw();
     // the main loop
@@ -34,5 +42,9 @@ public:
 
     void newSnake();
     void addSnakeSection();
+
+    void togglePause();
+
+    void moveApple();
 };
 #endif //ENGINE_H
